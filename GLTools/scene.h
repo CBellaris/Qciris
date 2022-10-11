@@ -36,7 +36,7 @@ public:
 
 
 
-       model = new Model("res/mary/Marry.obj");
+       model = new Model("res/nonasuit/nanosuit.obj");
        model->setScale(glm::vec3(0.5));
        model->setPosition(glm::vec3(0.0f,-1.0f,0.0f));
        processDepthCubeMap();
