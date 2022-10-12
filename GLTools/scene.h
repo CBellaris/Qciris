@@ -11,7 +11,7 @@
 #include "Material/Material_phong_tex.h"
 
 
-const int LIGHT_COUNT = 20;
+const int LIGHT_COUNT = 10;
 
 class Scene : public QOpenGLExtraFunctions
 {
