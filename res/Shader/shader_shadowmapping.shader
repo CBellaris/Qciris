@@ -37,7 +37,8 @@ void main()
 
 #Shader fragment
 #version 330 core
-out vec4 FragColor;
+out float FragColor;
+
 
 in vec4 FragPos;
 
@@ -53,5 +54,5 @@ void main()
     lightDistance = lightDistance / far_plane;
 
     // write this as modified depth
-    FragColor = vec4(vec3(lightDistance),1.0);
+    FragColor = lightDistance;
 }
